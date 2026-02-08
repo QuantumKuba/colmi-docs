@@ -232,13 +232,13 @@ struct BloodPressureConformRequest {
 
 ## Blink Twice
 
-ID: 15
+ID: 16
 
 ```c
 struct BlinkTwiceRequest {
-    uint8_t commandId = 15;
+    uint8_t commandId = 16;
     uint8_t unused[14];
-    uint8_t crc = 15;
+    uint8_t crc = 16;
 }
 ```
 
